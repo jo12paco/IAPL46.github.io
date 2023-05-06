@@ -1,0 +1,52 @@
+body{
+  background: rgb(66,237,233);
+  background: linear-gradient(90deg, rgba(66,237,233,1) 0%, rgba(101,246,110,1) 50%, rgba(69,252,236,1) 100%);
+
+}
+
+
+
+
+
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  h1, h2, h3, p {
+    display: flex;
+    justify-content: center;
+    margin: 5%
+  }
+  video {
+    margin: 0 auto;
+    width: 500px;
+    display: block;
+    border-radius: 20px;
+  }
+  div.boton{
+      display: flex;
+      justify-content: center;
+      margin: 5%;}
+
+div.boton button{
+        
+        background-color:  rgb(0, 0, 0);
+        color: white  ;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        margin-top: auto;
+        font-size: 15px;
+        width: 100px;
+        height: 45px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      div.boton button:hover{
+        background-color: rgb(112, 112, 110);
+      }
+    

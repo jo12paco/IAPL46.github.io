@@ -1,0 +1,204 @@
+*{
+  box-sizing: border-box;
+
+  padding: 0;
+}
+
+body{
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  margin: 10%;
+}
+
+h1{
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+}
+
+p{
+  color: white;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Overpass', sans-serif;
+text-align: center;
+}
+
+h2{
+  color: white;
+}
+
+
+nav{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+/* === removing default button style ===*/
+.button {
+  cursor: pointer;
+  margin: 1%;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #37FF8B;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+
+
+.pagina h2{
+  position: fixed;
+
+}
+
+.pagina{
+  margin: 10%;
+}
+
+.pagina img{
+
+  border-radius: 20px;
+
+    display: block;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+
+.pagina6{
+  margin: 10%;
+}
+
+.pagina6 img{
+  border-radius: 20px;
+
+    display: block;
+    margin: auto;
+}
+
+.pagina7 h2{
+
+  font-family: 'Courier New', Courier, monospace;
+}
+.pagina7{
+  margin: 10%;
+}
+
+.pagina7 img{
+  border-radius: 20px;
+
+    display: block;
+    margin: auto;
+}
+
+
+
+div.img img{
+  border-radius: 20px;
+  margin: 3%;
+}
+
+
+
+div.img a img:hover{
+  cursor: pointer;
+  width: 100px;
+  opacity: 1;
+  filter: contrast(120%);
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+
+.pagina8{
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.pagina8 button{
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.pagina8 h2{
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pagina8 button:hover{
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.pagina8 button:active {
+  transform: translateY(-1px);
+}
+
+nav{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

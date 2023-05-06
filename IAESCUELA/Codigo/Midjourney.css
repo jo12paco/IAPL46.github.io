@@ -1,0 +1,60 @@
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+    margin: 7%;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    text-align: center;
+}
+
+img {
+        margin: 0 auto;
+        width: 350px;
+        display: block;
+        border-radius: 20px;
+}
+
+div.boton{
+    display: flex;
+    justify-content: center;
+    margin: 5%;}
+
+
+button{
+    background-color:  blue;
+    color: white  ;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: auto;
+    font-size: 15px;
+    width: 100px;
+    height: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    cursor: pointer;
+  background-color:  #074979;
+}
